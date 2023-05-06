@@ -1,0 +1,41 @@
+body{
+    background-image: url("background.avif");
+    background-position: center;
+    background-size: cover;
+}
+#note{
+    font-size: smaller;
+    color: aquamarine;
+    
+}
+.heading{
+    font-size: 30px;
+    margin-top: 0;
+}
+.disk{
+    width: 200px;
+}
+#speed{
+    float: left;
+}
+#volume{
+    float: right;
+}
+.start{
+    font-size: 25px;
+}
+canvas{
+    border: 10px solid red;
+    border-radius: 20px;
+    margin-top: 90px;
+    animation-name: myanimation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes myanimation{
+    0%{ box-shadow: 5px 5px 15px greenyellow;}
+    25%{ box-shadow: -15px -15px 25px rgb(0, 153, 255);}
+    50%{ box-shadow: -15px 15px 25px rgb(87, 128, 75);}
+    100%{ box-shadow: 15px -15px 25px red;}
+    
+}
